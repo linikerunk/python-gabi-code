@@ -1,14 +1,19 @@
 # Palavras reservadas do python
 # exercio 1
-""" cadastro de uma escola, onde vc terá professores e alunos
-cada professor terá nome, email, materia_lecionada, salario, e alunos terá nome e materia"""
+"""
+cadastro de uma escola, onde vc terá professores e alunos
+cada professor terá nome, email, materia_lecionada, salario,
+e alunos terá nome e materia
+"""
 
+dict()
 """ DESAFIO PARA O PESSOAL DA AULA GABI-CODE : """
 escola = {
     'nome': 'Escola do Sol',
     'professores': [],
     'alunos': []
 }
+import ipdb; ipdb.set_trace();
 
 professor = {
     'nome': 'Ricardao',
@@ -33,3 +38,5 @@ print(f"materia_leciona : {professor['materia_leciona']}")
 print(f"salario : {professor['salario']:.3f}")
 print(f"aluno : {aluno['nome']}")
 print(f"materia do aluno : {aluno['materia']}")
+
+
