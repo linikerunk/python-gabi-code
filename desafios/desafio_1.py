@@ -13,7 +13,6 @@ escola = {
     'professores': [],
     'alunos': []
 }
-import ipdb; ipdb.set_trace();
 
 professor = {
     'nome': 'Ricardao',
